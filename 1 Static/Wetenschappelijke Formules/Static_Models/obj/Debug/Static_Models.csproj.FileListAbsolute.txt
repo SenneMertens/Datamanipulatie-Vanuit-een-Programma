@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\bin\Debug\Static_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\bin\Debug\Static_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\obj\Debug\Static_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\obj\Debug\Static_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\obj\Debug\Static_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\1 Static\Wetenschappelijke Formules\Static_Models\obj\Debug\Static_Models.pdb

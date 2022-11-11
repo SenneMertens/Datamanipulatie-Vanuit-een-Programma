@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="Static_WPF.WetenschappelijkeFormulesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Static_WPF"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Arbeid" Margin="5" Grid.Column="0" Grid.Row="0">
+            <StackPanel>
+                <TextBox x:Name="txtArbeidKracht" materialDesign:HintAssist.Hint="Kracht" Margin="5"></TextBox>
+                <TextBox x:Name="txtArbeidVerplaatsing" materialDesign:HintAssist.Hint="Verplaatsing in Meter" Margin="5"></TextBox>
+                <Button x:Name="btnArbeidBerekenen" Content="Arbeid Berekenen" Click="BtnArbeidBerekenen_Click" Margin="5"></Button>
+                <Label x:Name="lblArbeidResultaat" Margin="5"></Label>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Gravitatie Potentiële Energie" Margin="5" Grid.Column="1" Grid.Row="0">
+            <StackPanel>
+                <TextBox x:Name="txtGravitatieMassa" materialDesign:HintAssist.Hint="Massa" Margin="5"></TextBox>
+                <TextBox x:Name="txtGravitatieHoogte" materialDesign:HintAssist.Hint="Hoogte in Meter" Margin="5"></TextBox>
+                <Button x:Name="btnGravitatieBerekenen" Content="Gravitatie Berekenen" Click="BtnGravitatieBerekenen_Click" Margin="5"></Button>
+                <Label x:Name="lblGravitatieResultaat" Margin="5"></Label>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Vermogen" Margin="5" Grid.Column="2" Grid.Row="0">
+            <StackPanel>
+                <TextBox x:Name="txtVermogenArbeid" materialDesign:HintAssist.Hint="Arbeid" Margin="5"></TextBox>
+                <TextBox x:Name="txtVermogenTijdsduur" materialDesign:HintAssist.Hint="Tijdsduur in Seconden" Margin="5"></TextBox>
+                <Button x:Name="btnVermogenBerekenen" Content="Vermogen Berekenen" Click="BtnVermogenBerekenen_Click" Margin="5"></Button>
+                <Label x:Name="lblVermogenResultaat" Margin="5"></Label>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Zwaartekracht" Margin="5" Grid.Column="3" Grid.Row="0">
+            <StackPanel>
+                <TextBox x:Name="txtZwaartekrachtMassa" materialDesign:HintAssist.Hint="Massa" Margin="5"></TextBox>
+                <Button x:Name="btnZwaartekrachtBerekenen" Content="Zwaartekracht Berekenen" Click="BtnZwaartekrachtBerekenen_Click" Margin="5"></Button>
+                <Label x:Name="lblZwaartekrachtResultaat" Margin="5"></Label>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>
