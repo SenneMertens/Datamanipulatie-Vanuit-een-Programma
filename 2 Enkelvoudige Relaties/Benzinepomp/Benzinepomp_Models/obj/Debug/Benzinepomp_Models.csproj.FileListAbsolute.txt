@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\bin\Debug\Benzinepomp_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\bin\Debug\Benzinepomp_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\obj\Debug\Benzinepomp_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\obj\Debug\Benzinepomp_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\obj\Debug\Benzinepomp_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Benzinepomp\Benzinepomp_Models\obj\Debug\Benzinepomp_Models.pdb

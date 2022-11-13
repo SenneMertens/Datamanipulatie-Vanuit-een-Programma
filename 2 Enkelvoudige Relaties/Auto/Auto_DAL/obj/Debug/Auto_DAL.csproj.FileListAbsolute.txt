@@ -1,0 +1,9 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\bin\Debug\Auto_DAL.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\bin\Debug\Auto_DAL.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\bin\Debug\Auto_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\bin\Debug\Auto_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\obj\Debug\Auto_DAL.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\obj\Debug\Auto_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\obj\Debug\Auto_DAL.csproj.CopyComplete
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\obj\Debug\Auto_DAL.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_DAL\obj\Debug\Auto_DAL.pdb

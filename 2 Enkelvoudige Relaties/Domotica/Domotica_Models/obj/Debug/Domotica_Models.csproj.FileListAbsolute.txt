@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\bin\Debug\Domotica_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\bin\Debug\Domotica_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\obj\Debug\Domotica_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\obj\Debug\Domotica_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\obj\Debug\Domotica_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Domotica\Domotica_Models\obj\Debug\Domotica_Models.pdb

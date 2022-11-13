@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\bin\Debug\Auto_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\bin\Debug\Auto_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\obj\Debug\Auto_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\obj\Debug\Auto_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\obj\Debug\Auto_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\2 Enkelvoudige Relaties\Auto\Auto_Models\obj\Debug\Auto_Models.pdb
