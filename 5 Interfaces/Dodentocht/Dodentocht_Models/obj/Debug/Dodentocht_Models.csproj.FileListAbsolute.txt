@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\bin\Debug\Dodentocht_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\bin\Debug\Dodentocht_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\obj\Debug\Dodentocht_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\obj\Debug\Dodentocht_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\obj\Debug\Dodentocht_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\5 Interfaces\Dodentocht\Dodentocht_Models\obj\Debug\Dodentocht_Models.pdb
