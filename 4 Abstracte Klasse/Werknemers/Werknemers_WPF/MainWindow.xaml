@@ -1,0 +1,58 @@
+﻿<Window x:Class="Werknemers_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Werknemers_WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txtBedrijfsnaam" materialDesign:HintAssist.Hint="Naam Bedrijf" VerticalAlignment="Center" Margin="5" Grid.Column="0"></TextBox>
+            <Button x:Name="btnBedrijfAanmaken" Content="Bedrijf Aanmaken" Click="BtnBedrijfAanmaken_Click" Margin="5" Grid.Column="1"></Button>
+        </Grid>
+
+        <GroupBox Header="Gegevens Werknemer" Margin="5" Grid.Column="0" Grid.Row="1">
+            <StackPanel Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <RadioButton x:Name="rbCommissiewerker" Content="Commissiewerker" Checked="RbCommissiewerker_Checked" Margin="5" Grid.Column="0"></RadioButton>
+                    <RadioButton x:Name="rbStukWerker" Content="Stukwerker" Checked="RbStukWerker_Checked" Margin="5" Grid.Column="1"></RadioButton>
+                    <RadioButton x:Name="rbUurwerker" Content="Uurwerker" Checked="RbUurwerker_Checked" Margin="5" Grid.Column="2"></RadioButton>
+                </Grid>
+        
+                <TextBox x:Name="txtNaam" materialDesign:HintAssist.Hint="Naam" VerticalAlignment="Center" Margin="5"></TextBox>
+                <TextBox x:Name="txtVoornaam" materialDesign:HintAssist.Hint="Voornaam" VerticalAlignment="Center" Margin="5"></TextBox>
+                <TextBox x:Name="txtLoon" materialDesign:HintAssist.Hint="Loon" VerticalAlignment="Center" Margin="5"></TextBox>
+                <TextBox x:Name="txtAantalStuksUren" materialDesign:HintAssist.Hint="Aantal / Stuks / Uren" VerticalAlignment="Center" Margin="5"></TextBox>
+                <TextBox x:Name="txtCommissie" materialDesign:HintAssist.Hint="Commissie" VerticalAlignment="Center" Margin="5"></TextBox>
+                <Button x:Name="btnWerkenemerToevoegen" Content="Werknemer Toevoegen" Click="BtnWerkenemerToevoegen_Click" Margin="5"></Button>
+            </StackPanel>
+        </GroupBox>
+
+        <ComboBox x:Name="cmbBedrijven" materialDesign:HintAssist.Hint="Bedrijven" SelectionChanged="CmbBedrijven_SelectionChanged" Margin="5" Grid.Column="1" Grid.Row="0"></ComboBox>
+
+        <ListBox x:Name="lbWerknemers" FontFamily="Courier New" Margin="5" Grid.Column="1" Grid.Row="1"></ListBox>
+    </Grid>
+</Window>

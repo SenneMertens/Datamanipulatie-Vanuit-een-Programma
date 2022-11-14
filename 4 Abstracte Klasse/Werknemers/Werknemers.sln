@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werknemers_WPF", "Werknemers_WPF\Werknemers_WPF.csproj", "{2F2DE0EB-FA2C-46D9-9658-100321A8DD84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werknemers_Models", "Werknemers_Models\Werknemers_Models.csproj", "{D658EA17-EA43-4874-AB65-9D57BA592710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2DE0EB-FA2C-46D9-9658-100321A8DD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2DE0EB-FA2C-46D9-9658-100321A8DD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2DE0EB-FA2C-46D9-9658-100321A8DD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2DE0EB-FA2C-46D9-9658-100321A8DD84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D658EA17-EA43-4874-AB65-9D57BA592710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D658EA17-EA43-4874-AB65-9D57BA592710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D658EA17-EA43-4874-AB65-9D57BA592710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D658EA17-EA43-4874-AB65-9D57BA592710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {525F018F-8770-4182-9690-B717D01EC6B3}
+	EndGlobalSection
+EndGlobal

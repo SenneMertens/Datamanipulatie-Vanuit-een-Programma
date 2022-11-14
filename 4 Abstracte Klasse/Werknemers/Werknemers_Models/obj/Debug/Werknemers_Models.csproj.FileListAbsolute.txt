@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\bin\Debug\Werknemers_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\bin\Debug\Werknemers_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\obj\Debug\Werknemers_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\obj\Debug\Werknemers_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\obj\Debug\Werknemers_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\4 Abstracte Klasse\Werknemers\Werknemers_Models\obj\Debug\Werknemers_Models.pdb
