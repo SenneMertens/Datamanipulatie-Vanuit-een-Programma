@@ -1,0 +1,6 @@
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\bin\Debug\Toestellen_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\bin\Debug\Toestellen_Models.pdb
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\obj\Debug\Toestellen_Models.csproj.AssemblyReference.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\obj\Debug\Toestellen_Models.csproj.CoreCompileInputs.cache
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\obj\Debug\Toestellen_Models.dll
+C:\Users\Senne\Documents\Visual Studio 2022\Projects\Datamanipulatie Vanuit een Programma\6 .NET Interfaces\Elektrische Toestellen\Toestellen_Models\obj\Debug\Toestellen_Models.pdb

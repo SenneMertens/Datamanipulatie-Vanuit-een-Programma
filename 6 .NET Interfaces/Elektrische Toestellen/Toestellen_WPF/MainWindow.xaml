@@ -1,0 +1,61 @@
+﻿<Window x:Class="Toestellen_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toestellen_WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1000"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <GroupBox Header="Bankrekening" Margin="5" Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <TextBox x:Name="txtIbannummer" materialDesign:HintAssist.Hint="Ibannummer" VerticalAlignment="Center" Margin="5" Grid.Column="0" Grid.Row="0"></TextBox>
+                <TextBox x:Name="txtBedrag" materialDesign:HintAssist.Hint="Bedrag" VerticalAlignment="Center" Margin="5" Grid.Column="0" Grid.Row="1"></TextBox>
+                <Label x:Name="lblBankrekeningResultaat" Margin="5" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"></Label>
+
+                <Button x:Name="btnBankrekeningAanmaken" Content="Bankrekening Aanmaken" Click="BtnBankrekeningAanmaken_Click" Margin="5" Grid.Column="2" Grid.Row="0"></Button>
+                <Button x:Name="btnBankrekeningAfhalen" Content="Afhalen" Click="BtnBankrekeningAfhalen_Click" Margin="5" Grid.Column="2" Grid.Row="1"></Button>
+                <Button x:Name="btnBankrekeningStorten" Content="Storten" Click="BtnBankrekeningStorten_Click" Margin="5" Grid.Column="2" Grid.Row="2"></Button>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Aankopen" Margin="5" Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <ComboBox x:Name="cmbProducten" materialDesign:HintAssist.Hint="Producten" FontFamily="Courier New" Margin="5" Grid.Column="0" Grid.Row="0"></ComboBox>
+                <Button x:Name="btnProductKopen" Content="Kopen" Click="BtnProductKopen_Click" Margin="5" Grid.Column="1" Grid.Row="0"></Button>
+                <Button x:Name="btnProductNieuw" Content="Nieuw Product" Click="BtnProductNieuw_Click" Margin="5" Grid.Column="2" Grid.Row="0"></Button>
+
+                <Label x:Name="lblProductenGekocht" FontFamily="Courier New" Margin="5" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="2"></Label>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

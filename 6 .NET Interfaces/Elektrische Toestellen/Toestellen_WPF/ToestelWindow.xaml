@@ -1,0 +1,177 @@
+﻿<Window x:Class="Toestellen_WPF.ToestelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toestellen_WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="ToestelWindow" Height="650" Width="1000"
+        Loaded="Window_Loaded">
+    <Grid>
+        <GroupBox Header="Gegevens Product" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="9*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <TextBox x:Name="txtProductCode" materialDesign:HintAssist.Hint="Code" VerticalAlignment="Center" Margin="5" Grid.Column="0" Grid.Row="0"></TextBox>
+                <TextBox x:Name="txtProductBeschrijving" materialDesign:HintAssist.Hint="Beschrijving" VerticalAlignment="Center" Margin="5" Grid.Column="1" Grid.Row="0"></TextBox>
+                <TextBox x:Name="txtProductPrijs" materialDesign:HintAssist.Hint="Prijs" VerticalAlignment="Center" Margin="5" Grid.Column="2" Grid.Row="0"></TextBox>
+                <TextBox x:Name="txtProductMerk" materialDesign:HintAssist.Hint="Merk" VerticalAlignment="Center" Margin="5" Grid.Column="1" Grid.Row="1"></TextBox>
+                <TextBox x:Name="txtProductType" materialDesign:HintAssist.Hint="Type" VerticalAlignment="Center" Margin="5" Grid.Column="2" Grid.Row="1"></TextBox>
+
+                <GroupBox Header="Gegevens Boek" Margin="5" Grid.Column="0" Grid.Row="2">
+                    <materialDesign:Flipper>
+                        <materialDesign:Flipper.FrontContent>
+                            <Grid Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="160"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                
+                                <materialDesign:ColorZone Mode="PrimaryLight" VerticalAlignment="Stretch">
+                                    <materialDesign:PackIcon Kind="BookOpenVariant" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="100"></materialDesign:PackIcon>
+                                </materialDesign:ColorZone>
+                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                                    <TextBlock Text="Gegevens Boek Toevoegen"></TextBlock>
+                                    <Button Content="Edit" Style="{StaticResource MaterialDesignFlatButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" Margin="5"></Button>
+                                </StackPanel>
+                            </Grid>
+                        </materialDesign:Flipper.FrontContent>
+                        <materialDesign:Flipper.BackContent>
+                            <Grid  Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                
+                                <materialDesign:ColorZone Mode="PrimaryLight" Padding="6">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Style="{StaticResource MaterialDesignToolForegroundButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" HorizontalAlignment="Left">
+                                            <materialDesign:PackIcon Kind="ArrowLeft" HorizontalAlignment="Right"></materialDesign:PackIcon>
+                                        </Button>
+                                        <TextBlock VerticalAlignment="Center" Margin="5">Annuleer</TextBlock>
+                                    </StackPanel>
+                                </materialDesign:ColorZone>
+                                <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Grid.Row="1" Margin="5">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBox x:Name="txtBoekAuteur" materialDesign:HintAssist.Hint="Auteur" VerticalAlignment="Center" Margin="5" Grid.Row="0"></TextBox>
+                                    <Button x:Name="btnBoekToevoegen" Content="Toevoegen" Click="BtnBoekToevoegen_Click" Margin="5" Grid.Row="1"></Button>
+                                </Grid>
+                            </Grid>
+                        </materialDesign:Flipper.BackContent>
+                    </materialDesign:Flipper>
+                </GroupBox>
+
+                <GroupBox Header="Gegevens Televisie" Margin="5" Grid.Column="1" Grid.Row="2">
+                    <materialDesign:Flipper>
+                        <materialDesign:Flipper.FrontContent>
+                            <Grid Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="160"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <materialDesign:ColorZone Mode="PrimaryLight" VerticalAlignment="Stretch">
+                                    <materialDesign:PackIcon Kind="Television" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="100"></materialDesign:PackIcon>
+                                </materialDesign:ColorZone>
+                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                                    <TextBlock Text="Gegevens Televisie Toevoegen"></TextBlock>
+                                    <Button Content="Edit" Style="{StaticResource MaterialDesignFlatButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" Margin="5"></Button>
+                                </StackPanel>
+                            </Grid>
+                        </materialDesign:Flipper.FrontContent>
+                        <materialDesign:Flipper.BackContent>
+                            <Grid  Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <materialDesign:ColorZone Mode="PrimaryLight" Padding="6">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Style="{StaticResource MaterialDesignToolForegroundButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" HorizontalAlignment="Left">
+                                            <materialDesign:PackIcon Kind="ArrowLeft" HorizontalAlignment="Right"></materialDesign:PackIcon>
+                                        </Button>
+                                        <TextBlock VerticalAlignment="Center" Margin="5">Annuleer</TextBlock>
+                                    </StackPanel>
+                                </materialDesign:ColorZone>
+                                <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Grid.Row="1" Margin="5">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBox x:Name="txtTelevisieBeeldgrootte" materialDesign:HintAssist.Hint="Beeldgrootte" VerticalAlignment="Center" Margin="5" Grid.Row="0"></TextBox>
+                                    <TextBox x:Name="txtTelevisieHerz" materialDesign:HintAssist.Hint="Herz" VerticalAlignment="Center" Margin="5" Grid.Row="1"></TextBox>
+                                    <Button x:Name="btnTelevisieToevoegen" Content="Toevoegen" Click="BtnTelevisieToevoegen_Click" Margin="5" Grid.Row="2"></Button>
+                                </Grid>
+                            </Grid>
+                        </materialDesign:Flipper.BackContent>
+                    </materialDesign:Flipper>
+                </GroupBox>
+
+                <GroupBox Header="Gegevens Warmwaterkoker" Margin="5" Grid.Column="2" Grid.Row="2">
+                    <materialDesign:Flipper>
+                        <materialDesign:Flipper.FrontContent>
+                            <Grid Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="160"></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <materialDesign:ColorZone Mode="PrimaryLight" VerticalAlignment="Stretch">
+                                    <materialDesign:PackIcon Kind="WaterBoiler" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="100"></materialDesign:PackIcon>
+                                </materialDesign:ColorZone>
+                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                                    <TextBlock Text="Gegevens Warmwaterkoker Toevoegen"></TextBlock>
+                                    <Button Content="Edit" Style="{StaticResource MaterialDesignFlatButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" Margin="5"></Button>
+                                </StackPanel>
+                            </Grid>
+                        </materialDesign:Flipper.FrontContent>
+                        <materialDesign:Flipper.BackContent>
+                            <Grid  Height="300" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <materialDesign:ColorZone Mode="PrimaryLight" Padding="6">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Style="{StaticResource MaterialDesignToolForegroundButton}" Command="{x:Static materialDesign:Flipper.FlipCommand}" HorizontalAlignment="Left">
+                                            <materialDesign:PackIcon Kind="ArrowLeft" HorizontalAlignment="Right"></materialDesign:PackIcon>
+                                        </Button>
+                                        <TextBlock VerticalAlignment="Center" Margin="5">Annuleer</TextBlock>
+                                    </StackPanel>
+                                </materialDesign:ColorZone>
+                                <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Grid.Row="1" Margin="5">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <TextBox x:Name="txtWarmwaterkokerInhoud" materialDesign:HintAssist.Hint="Inhoud" VerticalAlignment="Center" Margin="5" Grid.Row="0"></TextBox>
+                                    <Button x:Name="btnWarmwaterkokerToevoegen" Content="Toevoegen" Click="BtnWarmwaterkokerToevoegen_Click" Margin="5" Grid.Row="1"></Button>
+                                </Grid>
+                            </Grid>
+                        </materialDesign:Flipper.BackContent>
+                    </materialDesign:Flipper>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
